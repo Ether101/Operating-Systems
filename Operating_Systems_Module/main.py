@@ -1,7 +1,3 @@
-# OS Project: Process Scheduling and Memory Management Simulation in Python
-# ===============================================================
-
-# Libraries Used
 import time
 from collections import deque
 
@@ -85,8 +81,7 @@ class Scheduler:
 
         return self.completed_processes, avg_waiting, avg_turnaround, mem_util
 
-# Command-line Interface
-
+#CLI
 def main():
     print("\n--- Operating Systems Project ---")
     print("Simulating Round Robin Scheduling with First-Fit Memory Allocation\n")
